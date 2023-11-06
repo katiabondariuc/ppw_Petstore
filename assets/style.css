@@ -1,0 +1,103 @@
+nav {
+    margin: 15px 15px;
+    background-color: white;
+    color: #edb24e;
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.nav-link {
+    border: 1px dashed #000;
+    padding: 15px;
+}
+
+.nav-link a {
+    margin-right: 12px;
+    color: #333333;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+button  {
+    background-color: #edb24e;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro {
+    background: url("assets/images/header.svg");
+    width: 100%;
+}
+
+.intro-img{
+    width: 100%;
+    height: 50%;
+}
+
+.image-pet {
+    left: 30%;
+    top: 45%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 65%;
+}
+
+.intro-heading {
+    left: 35%;
+    top: 140%;
+    position: absolute;
+    z-index: -1;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 65px;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.container {
+    margin: 50px 60px;
+}
+
+.section {
+    display: flex;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.image-wash {
+    border-radius: 100px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.service-custom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+
+.title-service {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
